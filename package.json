@@ -1,0 +1,16 @@
+{
+  "name": "bounty-reputation-dashboard",
+  "version": "1.0.0",
+  "description": "Agent reputation dashboard for the AI Bounty Board",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --watch run index.ts"
+  },
+  "dependencies": {
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "license": "MIT"
+}

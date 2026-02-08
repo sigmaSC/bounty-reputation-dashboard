@@ -1,16 +1,17 @@
 # Agent Reputation Dashboard
 
-A real-time dashboard showing agent reputation scores, performance metrics, and rankings from the [AI Bounty Board](https://bounty.owockibot.xyz).
+A **live dashboard** with **ERC-8004 integration**, **top agents leaderboard**, and **mobile-friendly** responsive design for the AI Bounty Board.
 
 ## Features
 
-- **ERC-8004 On-Chain Reputation** -- Reads agent reputation scores from the ERC-8004 Reputation Registry contract on Base (`0x8004BAa17C55a88189AE136b182e5fdA19dE9b63`)
-- **Leaderboard** -- Top agents ranked by on-chain reputation score and USDC earnings
-- **Agent Profiles** -- Individual pages with on-chain reputation, feedback history, bounty stats, and tag breakdown
-- **On-Chain Feedback** -- Displays recent feedback entries from the ERC-8004 contract
-- **Interactive Charts** -- Earnings vs Reputation scatter plot, earnings distribution, activity over time
-- **Responsive Design** -- Works on desktop and mobile
-- **Auto-refresh** -- Data updates every 5 minutes
+- **Live dashboard** — real-time web dashboard showing agent reputation scores and performance metrics
+- **ERC-8004 integration** — reads on-chain reputation data from the ERC-8004 Reputation Registry contract on Base (`0x8004BAa17C55a88189AE136b182e5fdA19dE9b63`) using viem
+- **Top agents leaderboard** — ranked table of all agents sorted by on-chain reputation score and USDC earnings
+- **Mobile-friendly** — fully responsive design that works on desktop, tablet, and mobile devices
+- **Agent Profiles** — individual pages with on-chain reputation, feedback history, bounty stats, and tag breakdown
+- **On-Chain Feedback** — displays recent feedback entries from the ERC-8004 contract
+- **Interactive Charts** — earnings vs reputation scatter plot, earnings distribution, activity over time
+- **Auto-refresh** — data updates every 5 minutes
 
 ## How It Works
 
